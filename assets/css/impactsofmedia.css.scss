@@ -1,0 +1,209 @@
+@font-face {
+    font-family: yumincho;
+    src: url('../fonts/yumin.ttf');
+}
+
+@font-face {
+    font-family: code-b;
+    src: url('../fonts/CODE\ Bold.otf');
+}
+
+@font-face {
+    font-family: code-l;
+    src: url('../fonts/CODE\ Light.otf');
+}
+
+*,*::before,*::after {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:  #202124;
+    color: white;
+}
+
+.hero {
+
+    .container {
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: yumincho;
+            letter-spacing: 2px;
+        }
+
+        .section {
+            .container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                
+    
+                .media {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    margin: 20px 10px;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 350px;
+    
+                    h3 {
+                        font-family: code-b;
+                        letter-spacing: 2px;
+                    }
+    
+                    p {
+                        margin-top: 0;
+                        font-family: yumincho;
+                        // letter-spacing: 1.5px;
+                        // font-weight: 600;
+                    }
+    
+                    img {
+                        object-fit: cover;
+                        width: 300px;
+                        display: block;
+                        margin: 10px auto;
+                        border: none;
+                        border-radius: 10px;
+                    }
+                }
+                
+                .why {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    margin: 20px 10px;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 350px;
+    
+                    h3 {
+                        font-family: code-b;
+                        letter-spacing: 2px;
+                    }
+    
+                    p {
+                        margin-top: 0;
+                        font-family: yumincho;
+                        // letter-spacing: 1.5px;
+                        // font-weight: 600;
+                    }
+                }
+            }
+
+            .positiveandnegative {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .positive {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    margin: 20px 10px;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 400px;
+                    // height: 570px;
+
+    
+                    h3 {
+                        font-family: code-b;
+                        letter-spacing: 2px;
+                    }
+    
+                    p {
+                        margin-top: 0;
+                        font-family: yumincho;
+                        // letter-spacing: 1.5px;
+                        // font-weight: 600;
+                    }
+
+                    span {
+                        text-align: left;
+                    }
+
+                    ul {
+                        text-align: left;
+                    }
+                }
+
+                .negative {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    margin: 20px 10px;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 500px;
+    
+                    h3 {
+                        font-family: code-b;
+                        letter-spacing: 2px;
+                    }
+    
+                    p {
+                        margin-top: 0;
+                        font-family: yumincho;
+                        // letter-spacing: 1.5px;
+                        // font-weight: 600;
+                    }
+
+                    span {
+                        text-align: left;
+                    }
+
+                    ul {
+                        text-align: left;
+                    }
+                }
+
+                .neg-post {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    margin: 20px 10px;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 400px;
+
+                    h4 {
+                        font-family: code-b;
+                        letter-spacing: 2px;
+                    }
+    
+                    p {
+                        margin-top: 0;
+                        font-family: yumincho;
+                        // letter-spacing: 1.5px;
+                        // font-weight: 600;
+                    }
+                    
+                    img {
+                        object-fit: cover;
+                        width: 300px;
+                        display: block;
+                        margin: 10px auto;
+                        border: none;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

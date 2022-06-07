@@ -1,0 +1,110 @@
+@font-face {
+  font-family: yumincho;
+  src: url("../fonts/yumin.ttf");
+}
+
+@font-face {
+  font-family: code-b;
+  src: url("../fonts/CODE Bold.otf");
+}
+
+@font-face {
+  font-family: code-l;
+  src: url("../fonts/CODE Light.otf");
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #202124;
+  color: white;
+}
+
+body h1 {
+  margin: 20px 0;
+}
+
+.hero .container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: yumincho;
+  letter-spacing: 2px;
+}
+
+.hero .container .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .container .sections div {
+  margin: 20px 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.hero .container .sections div h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: code-b;
+  letter-spacing: 2px;
+}
+
+.hero .container .sections div a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+.hero .container .sections div a:hover {
+  color: gold;
+}
+
+.hero .container .sections div p {
+  margin: 16px 0;
+  font-family: code-l;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.hero .container .sections div img {
+  height: 300px;
+  width: 300px;
+  background: #2021248e;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.hero .container .sections div img:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+#particles {
+  position: fixed;
+  z-index: -9999;
+  pointer-events: none;
+  height: 100vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=105093.css.map */
